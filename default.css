@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'moonflower';
+    src: url('fonts/moon_flower_bold-webfont.woff2') format('woff2'),
+         url('fonts/moon_flower_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+  font-family: sans-serif;
+  color: #585756;
+  background: #fffaf2;
+}
+
+h1 {  
+  font-family: moonflower, sans-serif;
+  color: #000000;
+  font-size: 75px;
+  margin-bottom: 0;
+}
+
+h2 {  
+  font-family: moonflower, sans-serif;
+  color: #3a3a3a;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+a {
+	color: #585756;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #585756;
+	text-decoration: underline;
+}
+
+.nutrizione {
+  background-color: #fdc362;
+}
+
+.yoga {
+  background-color: #8fe09e;
+}
+
+#scrollUp {
+  background-image: url("img/scrolltotop.png");
+  bottom: 20px;
+  right: 20px;
+  width: 38px;
+  height: 19px;
+}
+
+.footer {
+  text-align: center;
+}
