@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @font-face {
     font-family: 'moonflower';
     src: url('fonts/moon_flower_bold-webfont.woff2') format('woff2'),
@@ -30,14 +31,31 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 
 body {
   font-family: sans-serif;
-  color: #585756;
+  color: #343434;
   background: #fffaf2;
+}
+
+a {
+	color: #343434;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #343434;
+	text-decoration: underline;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 h1 {  
   font-family: moonflower, sans-serif;
   color: #000000;
-  font-size: 75px;
+  font-size: 60px;
   margin-bottom: 0;
 }
 
@@ -49,14 +67,17 @@ h2 {
   margin-bottom: 100px;
 }
 
-a {
-	color: #585756;
-	text-decoration: none;
+.ulivo {
+  width: 200px;
+  position: absolute; 
+  top: 0; 
+  left: 0;
 }
 
-a:hover, a:focus {
-	color: #585756;
-	text-decoration: underline;
+.imgcentrale {
+  margin-top: 200px;
+  width: 100%; 
+  max-width: 400px;
 }
 
 .nutrizione {
@@ -65,6 +86,33 @@ a:hover, a:focus {
 
 .yoga {
   background-color: #8fe09e;
+}
+
+.padfooter {
+  padding: 0 40px;
+}
+
+.contatti {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.divzucca {
+  text-align: center;
+}
+
+.zucca {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 100px;
+}
+
+.iconcontainer {
+  width: 50px;
+  text-align: right;
+  margin-right: 10px;
+  display: inline-block;
 }
 
 #scrollUp {
@@ -76,5 +124,48 @@ a:hover, a:focus {
 }
 
 .footer {
-  text-align: center;
+  height: 80px;
+  background: url("img/striscia.jpg") repeat-x;
+  background-size: auto 80px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 75px;
+  }
+ 
+  .footer {
+    height: 105px;
+    background-size: auto auto;
+  }     
+}
+
+@media (min-width: 992px) {
+  .imgcentrale {
+    margin-top: 120px;
+  }
+  
+  .ulivo {
+    width: 100%; 
+    max-width: 283px;
+  }
+
+  .contatti {
+    margin-top: 220px;
+    text-align: left;
+    margin-bottom: 150px;
+  }
+  
+  .iconcontainer {
+    text-align: center;
+  }
+
+  .divzucca {
+    text-align: right;
+  }
+  
+  .zucca {
+    max-width: 400px;
+  }
+
 }
