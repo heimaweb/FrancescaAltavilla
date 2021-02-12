@@ -109,8 +109,6 @@ h2 {
 }
 
 .iconcontainer {
-  width: 50px;
-  text-align: right;
   margin-right: 10px;
   display: inline-block;
 }
@@ -137,6 +135,13 @@ h2 {
   .footer {
     height: 105px;
     background-size: auto auto;
+  }
+  
+  .iconcontainer {
+    width: 50px;
+    text-align: right;
+    margin-right: 10px;
+    display: inline-block;
   }     
 }
 
