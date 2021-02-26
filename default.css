@@ -55,7 +55,7 @@ p {
 h1 {  
   font-family: moonflower, sans-serif;
   color: #000000;
-  font-size: 45px;
+  font-size: 55px;
   margin-bottom: 0;
 }
 
@@ -68,7 +68,7 @@ h2 {
   color: #3a3a3a;
   font-size: 35px;
   margin-top: 0;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .ulivo {
@@ -110,13 +110,26 @@ h2 {
 }
 
 .nutritext {
-  height: 350px;
+  height: 370px;
   padding: 0 20px
 }
 
 .nutritext p {
   position: relative;
-  top: 50%;
+  top: 55%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.yogatext {
+  height: 300px;
+  padding: 0 20px
+}
+
+.yogatext p {
+  position: relative;
+  top: 45%;
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -128,7 +141,7 @@ h2 {
 
 .yogatitle {
   height: 350px;
-  background: url("img/lotus.jpg") no-repeat;
+  background: url("img/lotus.png") no-repeat;
   background-position: center; 
 }
 
@@ -187,6 +200,14 @@ h2 {
     font-size: 75px;
   }
 
+  .yogatext {
+    height: 350px;
+  }
+
+  .nutritext {
+    height: 350px;
+  }
+    
   .nutrizione h1, .yoga h1 {
     font-size: 80px;
   }
