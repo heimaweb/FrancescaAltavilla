@@ -128,7 +128,7 @@ h2 {
 }
 
 .yogatext {
-  height: 350px;
+  height: 400px;
   padding: 0 20px
 }
 
@@ -203,6 +203,10 @@ h2 {
   p {
     font-size: 21px;
     line-height: 30px;    
+  }
+
+  .yogatext {
+    height: 350px;
   }
 
   .nutritext {
