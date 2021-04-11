@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;500&display=swap');
+
 @font-face {
     font-family: 'moonflower';
     src: url('fonts/moon_flower_bold-webfont.woff2') format('woff2'),
@@ -46,10 +47,14 @@ a:hover, a:focus {
 }
 
 p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+  font-family: 'Kiwi Maru', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
   line-height: 24px;
+}
+
+strong {
+  font-weight: 500;
 }
 
 h1 {  
@@ -123,7 +128,7 @@ h2 {
 }
 
 .yogatext {
-  height: 300px;
+  height: 350px;
   padding: 0 20px
 }
 
@@ -195,8 +200,9 @@ h2 {
     font-size: 75px;
   }
 
-  .yogatext {
-    height: 350px;
+  p {
+    font-size: 21px;
+    line-height: 30px;    
   }
 
   .nutritext {
