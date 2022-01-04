@@ -253,6 +253,10 @@ ul.lotus li {
   font-size: 35px;
 }
 
+.section0 h1 {
+  font-size: 35px;
+}
+
 .section4 h2 {
   margin-top:20px; 
   color:#28659e;
@@ -350,6 +354,14 @@ ul.lotus li {
     font-size: 75px;
   }
 
+  .section0 {
+    margin-top: 60px;
+  }
+    
+  .section0 h1 {
+    font-size: 50px;
+  }
+  
   .section4 h2 {
     font-size: 35px;
   }
